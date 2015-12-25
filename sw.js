@@ -1,4 +1,4 @@
-var CACHE_NAME = 'liky_cache_v2';
+var CACHE_NAME = 'liky_cache_v3';
 
 var urlsToCache = [
   '/',
