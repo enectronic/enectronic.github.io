@@ -17,7 +17,7 @@ var srConfig = {
 (function(sr) {
   'use strict';
 
-  setupSW();
+  //setupSW();
 
   sr.reveal([
     '.home__post',
