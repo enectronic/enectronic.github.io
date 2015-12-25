@@ -1,4 +1,7 @@
-<a href="#" class="button__fb">
+<a
+  href="http://www.facebook.com/share.php?u={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}&amp;title={{post.title}}"
+  class="button__fb"
+  target="_blank">
   <p>Dela på Facebook</p>
   {% include icon-fb.svg %}
 </a>
