@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {% for post in paginator.posts limit: 1 %}
+    <a class="home__post--hero"
+       href="{{ post.url | prepend: site.baseurl }}"
+       style="background-image: url({{post.thumbnail}})">
+
+      <h3 class="home__post__title">{{ post.title }}</h3>
+    </a>
+  {% endfor %}
+
+  {% for post in paginator.posts offset: 1 %}
+    <a class="home__post"
+       href="{{ post.url | prepend: site.baseurl }}"
+       style="background-image: url({{post.thumbnail}})">
+
+      <h3 class="home__post__title">{{ post.title }}</h3>
+    </a>
+  {% endfor %}
+
+  <!-- Pagination links -->
+  <div class="home__pagination">
+    {% if paginator.previous_page %}
+      <a
+        href="{{ paginator.previous_page_path }}"
+        class="home__page__prev">Föregående</a>
+    {% endif %}
+    <span class="home__page-number ">Sida: {{ paginator.page }} av {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a
+        href="{{ paginator.next_page_path }}"
+        class="home__page__next">Nästa</a>
+    {% endif %}
+  </div>
+
+</div>

@@ -1,0 +1,11 @@
+<h2 class="related__heading">Se även</h2>
+<div class="related__posts">
+  {% for post in site.related_posts limit:3 %}
+    <a
+      class="related__post"
+      href="{{ post.url }}"
+      style="background-image: url({{post.thumbnail}})">
+      <h3 class="related__post__title">{{ post.title }}</h3>
+    </a>
+  {% endfor %}
+</div>

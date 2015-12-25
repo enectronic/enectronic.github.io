@@ -1,0 +1,14 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  height: 150px;
+
+  a {
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #222;
+    text-decoration: none;
+    font-weight: 900;
+  }
+}

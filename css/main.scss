@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 300;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+html {
+  box-sizing: border-box;
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+*, *:before, *:after {
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  box-sizing: inherit;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+.article__hoverable {
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(75%);
+
+  transition: all 350ms ease;
+
+  &:hover {
+    filter: none;
+  }
+}
+
+.article__title {
+  margin-top: auto;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, .5);
+  color: #fafafa;
+  padding: 0.8rem 0;
+}
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "../_sass/normalize",
+        "../_sass/buttons",
+        "../_sass/post",
+        "../_sass/related",
+        "../_sass/header",
+        "../_sass/home"
+;
