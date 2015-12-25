@@ -9,8 +9,9 @@
 gems: [jekyll-paginate]
 title: Liky
 email: your-email@domain.com
-description: > # På Liky publiceras dagligen oliga listor, nyheter och videos
-med mera.
+description: > #
+  På Liky publiceras dagligen roliga listor, nyheter och videos
+  med mera.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://enectronic.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb

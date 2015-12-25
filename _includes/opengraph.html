@@ -4,9 +4,9 @@
 
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-<meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+<meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.baseurl | prepend: site.url }}{% else %}{{ '/img/webapp/launcher-icon-3x.png' | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% endif %}">
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}">
 
 <meta property="og:site_name" content="{{ site.title }}">
 
