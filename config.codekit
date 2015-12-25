@@ -206,6 +206,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/about\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -224,6 +233,31 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/css\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/main.scss",
+		"outputAbbreviatedPath": "\/_site\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
 	"\/_site\/Hissen-i-nya-world-trade-center-ar-fantastisk\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -232,6 +266,138 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/img\/bicycle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26815,
+		"inputAbbreviatedPath": "\/_site\/img\/bicycle.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bicycle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/car-duct.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76415,
+		"inputAbbreviatedPath": "\/_site\/img\/car-duct.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/car-duct.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/door-handle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 231168,
+		"inputAbbreviatedPath": "\/_site\/img\/door-handle.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/door-handle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/quickfix.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190548,
+		"inputAbbreviatedPath": "\/_site\/img\/quickfix.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/quickfix.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/thumbs\/thumb-christmas-food.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.66839e+06,
+		"inputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-christmas-food.png",
+		"outputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-christmas-food.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/thumbs\/thumb-drink-give-away.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 365194,
+		"inputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-drink-give-away.png",
+		"outputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-drink-give-away.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/thumbs\/thumb-hatten.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.72008e+06,
+		"inputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-hatten.png",
+		"outputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-hatten.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/thumbs\/thumb-stupid-but-works.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 810563,
+		"inputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-stupid-but-works.png",
+		"outputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-stupid-but-works.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/thumbs\/thumb-wtc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.72149e+06,
+		"inputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-wtc.png",
+		"outputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-wtc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/webapp\/launcher-icon-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1126,
+		"inputAbbreviatedPath": "\/_site\/img\/webapp\/launcher-icon-2x.png",
+		"outputAbbreviatedPath": "\/_site\/img\/webapp\/launcher-icon-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/webapp\/launcher-icon-3x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1677,
+		"inputAbbreviatedPath": "\/_site\/img\/webapp\/launcher-icon-3x.png",
+		"outputAbbreviatedPath": "\/_site\/img\/webapp\/launcher-icon-3x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/webapp\/launcher-icon-4x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2176,
+		"inputAbbreviatedPath": "\/_site\/img\/webapp\/launcher-icon-4x.png",
+		"outputAbbreviatedPath": "\/_site\/img\/webapp\/launcher-icon-4x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
@@ -242,6 +408,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/main.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_site\/Man-kan-vara-snall-sen-kan-man-vara-snall\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -250,6 +438,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/manifest.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/manifest.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/_site\/manifest-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/about.html": {
 		"fileType": 8192,
