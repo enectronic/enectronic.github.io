@@ -17,11 +17,11 @@ self.addEventListener('install', function(event) {
 });
 
 
-self.addEventListener('fetch', function( event ) {
+self.addEventListener('fetch', function(event) {
   event.respondWith(
-    caches.match( event.request )
-      .then(function( response ) {
-        if ( response ) {
+    caches.match(event.request)
+      .then(function(response) {
+        if (response) {
           console.log('fetch cache hit');
           return response;
         }
