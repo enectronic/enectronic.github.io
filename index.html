@@ -13,7 +13,28 @@ layout: default
     </a>
   {% endfor %}
 
-  {% for post in paginator.posts offset: 1 %}
+  {% for post in paginator.posts offset: 1 limit: 2 %}
+    <a class="home__post"
+       href="{{ post.url | prepend: site.baseurl }}"
+       style="background-image: url({{post.thumbnail}})">
+
+      <h3 class="home__post__title">{{ post.title }}</h3>
+    </a>
+  {% endfor %}
+
+  <div class="home__post">
+    <!-- box -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2159682192140261"
+         data-ad-slot="7504525834"
+         data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  {% for post in paginator.posts offset: 3 %}
     <a class="home__post"
        href="{{ post.url | prepend: site.baseurl }}"
        style="background-image: url({{post.thumbnail}})">
