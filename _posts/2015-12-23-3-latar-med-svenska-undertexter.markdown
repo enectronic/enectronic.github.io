@@ -3,7 +3,7 @@ layout: video-post
 title:  "3 låtar med svenska undertexter"
 date:   2015-12-23 12:53:00 +0100
 categories: News
-excerpt: Någon som minns "hatten är din"?
+excerpt: Någon som minns \"hatten är din\"?
 thumbnail: /img/thumbs/thumb-hatten.png
 ---
 
