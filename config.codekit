@@ -311,17 +311,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/thumbs\/thumb-christmas-food.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 433682,
-		"inputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-christmas-food.png",
-		"outputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-christmas-food.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/img\/thumbs\/thumb-drink-give-away.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -333,17 +322,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/thumbs\/thumb-hatten.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 816283,
-		"inputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-hatten.png",
-		"outputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-hatten.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/img\/thumbs\/thumb-stupid-but-works.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -351,17 +329,6 @@
 		"initialSize": 214508,
 		"inputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-stupid-but-works.png",
 		"outputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-stupid-but-works.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/thumbs\/thumb-wtc.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 482318,
-		"inputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-wtc.png",
-		"outputAbbreviatedPath": "\/_site\/img\/thumbs\/thumb-wtc.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
