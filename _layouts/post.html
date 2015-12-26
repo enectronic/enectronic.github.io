@@ -2,21 +2,13 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- top-banner -->
-  <ins class="adsbygoogle"
-       style="display:inline-block;width:728px;height:90px"
-       data-ad-client="ca-pub-2159682192140261"
-       data-ad-slot="1405789837"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
   <header class="post__header">
     <h1
       class="post__title"
       itemprop="name headline">
       {{ page.title }}
     </h1>
+    {% include hero-ad.html %}
     <p class="post__meta">
     	<time
     		datetime="{{ page.date | date_to_xmlschema }}"
