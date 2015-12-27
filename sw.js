@@ -1,11 +1,12 @@
 'use strict';
 
-var CACHE_NAME = 'liky_cache_v5';
+var CACHE_NAME = 'liky_cache_v6';
 
 var urlsToCache = [
-  '/',
+  '/index.html',
   '/css/main.css',
-  '/js/main.js'
+  '/js/min/main-min.js',
+  '/img'
 ];
 
 self.addEventListener('activate', function(event) {
