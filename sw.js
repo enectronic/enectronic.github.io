@@ -1,6 +1,6 @@
 'use strict';
 
-var CACHE_NAME = 'liky_cache_v6';
+var CACHE_NAME = 'liky_cache_v7';
 
 var urlsToCache = [
   '/index.html',
