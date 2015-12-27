@@ -5,8 +5,7 @@ var CACHE_NAME = 'liky_cache_v7';
 var urlsToCache = [
   '/index.html',
   '/css/main.css',
-  '/js/min/main-min.js',
-  '/img/thumbs/',
+  '/js/min/main-min.js'
 ];
 
 self.addEventListener('activate', function(event) {
