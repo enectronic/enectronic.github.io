@@ -6,7 +6,7 @@ var urlsToCache = [
   '/index.html',
   '/css/main.css',
   '/js/min/main-min.js',
-  '/img/thumbs',
+  '/img/thumbs/',
 ];
 
 self.addEventListener('activate', function(event) {
