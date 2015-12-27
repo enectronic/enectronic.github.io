@@ -1,4 +1,6 @@
-var CACHE_NAME = 'liky_cache_v4';
+'use strict';
+
+var CACHE_NAME = 'liky_cache_v5';
 
 var urlsToCache = [
   '/',
@@ -16,18 +18,17 @@ self.addEventListener('activate', function(event) {
           if ( cacheWhitelist.indexOf(cacheName) === -1 ) {
             return caches.delete(cacheName);
           }
-        });
+        })
       );
-    });
+    })
   );
 });
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
-      console.log('Opened cache');
       return cache.addAll(urlsToCache);
-    });
+    })
   );
 });
 
