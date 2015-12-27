@@ -9,7 +9,6 @@ layout: default
       itemprop="name headline">
       {{ page.title }}
     </h1>
-    {% include hero-ad.html %}
     <p class="post__meta">
       <time
         datetime="{{ page.date | date_to_xmlschema }}"
@@ -27,6 +26,7 @@ layout: default
           </span>
       {% endif %}
     </p>
+    {% include hero-ad.html %}
   </header>
 
   <div class="post__content" itemprop="articleBody">
