@@ -1,4 +1,4 @@
-var CACHE_NAME = 'liky_cache_v3';
+var CACHE_NAME = 'liky_cache_v4';
 
 var urlsToCache = [
   '/',
@@ -24,11 +24,10 @@ self.addEventListener('activate', function(event) {
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
+    caches.open(CACHE_NAME).then(function(cache) {
+      console.log('Opened cache');
+      return cache.addAll(urlsToCache);
+    });
   );
 });
 
