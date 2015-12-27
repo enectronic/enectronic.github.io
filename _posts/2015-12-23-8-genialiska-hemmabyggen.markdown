@@ -18,9 +18,9 @@ _Vad tänkte den här mannen och varför vill jag göra en likadan?_
 <img src="/img/bicycle.jpg" alt="Cykel med TV" />
 
 __3__
-_Tidernas kanske bästa quickfix!
+_Tidernas kanske bästa quickfix!_
 <img src="/img/quickfix.jpg" alt="Backspegel gjord med en vanlig spegel." />
 
 __4__
-_Om det inte går att laga med tejp är det inte värt att köpa från början!_Tidernas
+_Om det inte går att laga med tejp är det inte värt att köpa från början!_
 <img src="/img/car-duct.jpg" alt="Bil lagad med silvertejp." />
